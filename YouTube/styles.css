@@ -1,0 +1,123 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.profile{
+    width: 30px;
+    border-radius: 50%;
+}
+.fa-solid.fa-bars{
+    margin-right: 10px;
+}
+i{
+    font-size: 25px;
+    
+}
+.fa-brands.fa-youtube{
+    color: red;
+}
+.search{
+    padding: 4px 140px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.fa-solid.fa-video{
+    margin-right: 10px;
+    position: relative;
+}
+.fa-solid.fa-video:hover::after{
+    content: "Създаване";
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.fa-solid.fa-bell{
+    margin-right: 10px;
+    position: relative;
+}
+.fa-solid.fa-bell:hover::after{
+    content: "Известия";
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.fa-youtube {
+    position: relative;
+    font-size: 22px;
+}
+.fa-youtube:hover::after {
+    content: " начална страница на youtube";
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+sup {
+    font-size: 14px;
+}
+.fa-solid.fa-microphone{
+    position: relative;
+}
+.fa-solid.fa-microphone:hover::after{
+    content: " Търсене с гласа ви";
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.right{
+    margin: 20px;
+    width: 220px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.fa-solid{
+    margin-right: 20px;
+}
+.abonaments li{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.abonaments img{
+    width: 35px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.abonaments a{
+    text-decoration: none;
+    color: #333;
+}
