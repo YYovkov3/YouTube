@@ -97,6 +97,7 @@ sup {
     width: 220px;
     border-bottom: 1px solid black;
     overflow: hidden;
+    cursor: pointer;
 }
 ul{
     list-style: none;
@@ -120,4 +121,25 @@ p{
 .abonaments a{
     text-decoration: none;
     color: #333;
+}
+.right-s{
+    display: flex;
+}
+.center-main ul {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.center-main li {
+    display: inline-block;
+    margin: 0 40px; 
+}
+.center-main li:hover{
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
 }
