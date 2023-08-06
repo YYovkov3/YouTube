@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
       rightElements.forEach(function(element) {
         var currentDisplayStyle = window.getComputedStyle(element).display;
         if (currentDisplayStyle === "none") {
-          element.style.display = "block"; // или "flex", ако е подходящо за вашия случай
+          element.style.display = "block"; 
         } else {
           element.style.display = "none";
         }
